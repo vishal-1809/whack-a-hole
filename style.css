@@ -37,7 +37,7 @@ h2 {
 }
 
 .hole {
-    background-image: url('hole.png');
+    background-image: url('hole.PNG');
     background-size: cover;
     background-repeat: no-repeat;
 }
