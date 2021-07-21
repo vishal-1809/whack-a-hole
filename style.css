@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_0YhdIik436M3P4Ve0kRX5VGIbI0Q-q6SFQ&usqp=CAU');
     background-size: cover;
 }
