@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_0YhdIik436M3P4Ve0kRX5VGIbI0Q-q6SFQ&usqp=CAU');
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    /* border: 2px solid black; */
+    grid-gap: 3px;
+}
+
+.box {
+    height: 200px;
+    width: 200px; 
+    border: 2px solid black;
+}
+
+.mole {
+    background-image: url('https://koenig-media.raywenderlich.com/uploads/2011/01/WhackAMole1.jpg');
+    background-size: cover;
+}
+
+.hole {
+    background-image: url('hole.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 650px){
+    .box {
+        height: 96px;
+        width: 96px;
+    }
+}
+
